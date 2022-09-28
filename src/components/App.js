@@ -12,7 +12,9 @@ const App = () => {
 
   return (
     <div id="main">
-      <Join  />
+      <Join.propTypes = {
+  words: PropTypes.arr
+};  />
     </div>
   )
 }
